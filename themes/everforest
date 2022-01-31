@@ -1,0 +1,70 @@
+## Original Author
+# URL: https://github.com/sainnhe/everforest
+# Author: sainnhe
+# License: MIT License
+
+"constant.character.escape" = "orange"
+"type" = "yellow"
+"constant" = "purple"
+"constant.numeric" = "purple"
+"string" = "green"
+"comment" = "grey0"
+"variable" = "fg"
+"variable.builtin" = "blue"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
+"label" = "aqua"
+"punctuation" = "grey2"
+"punctuation.delimiter" = "grey2"
+"punctuation.bracket" = "fg"
+"keyword" = "red"
+"operator" = "orange"
+"function" = "green"
+"function.builtin" = "blue"
+"function.macro" = "aqua"
+"tag" = "yellow"
+"namespace" = "aqua"
+"attribute" = "aqua"
+"constructor" = "yellow"
+"module" = "blue"
+"special" = "orange"
+
+"markup.heading" = "red"
+"markup.list" = "red"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "magenta", modifiers = ["italic"] }
+"markup.link.url" = { fg = "yellow", modifiers = ["underlined"] }
+"markup.link.text" = "red"
+"markup.quote" = "cyan"
+"markup.raw" = "green"
+
+"diff.plus" = "green"
+"diff.delta" = "orange"
+"diff.minus" = "red"
+
+"ui.background" = { bg = "bg0" }
+"ui.cursor" = { fg = "bg0", bg = "fg" }
+"ui.cursor.match" = { fg = "orange", bg = "bg_yellow" }
+"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor.select" = { fg = "bg0", bg = "blue" }
+"ui.linenr" = "grey0"
+"ui.linenr.selected" = "fg"
+"ui.statusline" = { fg = "grey2", bg = "bg2" }
+"ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
+"ui.popup" = { fg = "grey2", bg = "bg1" }
+"ui.window" = { fg = "grey2", bg = "bg1" }
+"ui.help" = { fg = "fg", bg = "bg1" }
+"ui.text" = "fg"
+"ui.text.focus" = "fg"
+"ui.menu" = { fg = "fg", bg = "bg2" }
+"ui.menu.selected" = { fg = "bg0", bg = "green" }
+"ui.selection" = { bg = "bg3" }
+
+"hint" = "blue"
+"info" = "aqua"
+"warning" = "yellow"
+"error" = "red"
+"diagnostic" = { modifiers = ["underlined"] }
+
+[palette]
+
