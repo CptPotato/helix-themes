@@ -14,5 +14,14 @@ Included themes and variants:
     - Hard
     - Medium
     - Soft
+- [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) (all variants: `material` / `mix` / `original`)
+  - Dark
+    - Hard
+    - Medium
+    - Soft
+  - Light
+    - Hard
+    - Medium
+    - Soft
 
 Build by running `build.sh`.

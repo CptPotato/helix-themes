@@ -1,5 +1,5 @@
 ## Original Author
-# URL: https://github.com/sainnhe/everforest
+# URL: https://github.com/sainnhe/gruvbox-material
 # Author: sainnhe
 # License: MIT License
 
@@ -9,14 +9,14 @@
 "constant.character.escape" = "orange"
 "string" = "green"
 "comment" = "grey0"
-"variable" = "fg"
+"variable" = "fg0"
 "variable.builtin" = "blue"
-"variable.parameter" = "fg"
-"variable.other.member" = "fg"
+"variable.parameter" = "fg0"
+"variable.other.member" = "fg0"
 "label" = "aqua"
 "punctuation" = "grey2"
 "punctuation.delimiter" = "grey2"
-"punctuation.bracket" = "fg"
+"punctuation.bracket" = "fg0"
 "keyword" = "red"
 "operator" = "orange"
 "function" = "green"
@@ -43,21 +43,21 @@
 "diff.minus" = "red"
 
 "ui.background" = { bg = "bg0" }
-"ui.cursor" = { fg = "bg0", bg = "fg" }
-"ui.cursor.match" = { fg = "orange", bg = "bg_yellow" }
-"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor" = { fg = "bg0", bg = "fg0" }
+"ui.cursor.match" = { fg = "orange", bg = "bg_visual_yellow" }
+"ui.cursor.insert" = { fg = "bg0", bg = "grey2" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
 "ui.linenr" = "grey0"
-"ui.linenr.selected" = "fg"
-"ui.statusline" = { fg = "grey2", bg = "bg2" }
+"ui.linenr.selected" = "fg0"
+"ui.statusline" = { fg = "fg0", bg = "bg2" }
 "ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
-"ui.popup" = { fg = "grey2", bg = "bg1" }
+"ui.popup" = { fg = "grey2", bg = "bg2" }
 "ui.window" = { fg = "grey0", bg = "bg0" }
-"ui.help" = { fg = "fg", bg = "bg1" }
-"ui.text" = "fg"
-"ui.text.focus" = "fg"
-"ui.menu" = { fg = "fg", bg = "bg2" }
-"ui.menu.selected" = { fg = "bg0", bg = "green" }
+"ui.help" = { fg = "fg0", bg = "bg1" }
+"ui.text" = "fg0"
+"ui.text.focus" = "fg0"
+"ui.menu" = { fg = "fg0", bg = "bg3" }
+"ui.menu.selected" = { fg = "bg0", bg = "blue" }
 "ui.selection" = { bg = "bg3" }
 
 "hint" = "blue"
