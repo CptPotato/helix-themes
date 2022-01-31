@@ -1,3 +1,5 @@
+![header](header.png)
+
 ## Helix Themes
 
 Some themes for the [helix editor](https://github.com/helix-editor/helix).
@@ -14,7 +16,7 @@ Included themes and variants:
     - Hard
     - Medium
     - Soft
-- [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) (all variants: `material` / `mix` / `original`)
+- [Gruvbox (Material)](https://github.com/sainnhe/gruvbox-material) (all variants: `material` / `mix` / `original`)
   - Dark
     - Hard
     - Medium
@@ -24,4 +26,13 @@ Included themes and variants:
     - Medium
     - Soft
 
-Build by running `build.sh`.
+---
+
+Generate all themes by running `build.sh`.
+
+Or generate a single one:
+
+```bash
+cat "themes/gruvbox" "palettes/gruvbox/material_dark_medium" > "theme.toml"
+```
+
