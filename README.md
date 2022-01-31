@@ -2,7 +2,7 @@
 
 ## Helix Themes
 
-Some themes for the [helix editor](https://github.com/helix-editor/helix).
+A few themes ported to the [helix editor](https://github.com/helix-editor/helix).
 
 Included themes and variants:
 
@@ -25,6 +25,13 @@ Included themes and variants:
     - Hard
     - Medium
     - Soft
+- [Sonokai](https://github.com/sainnhe/sonokai)
+  - Default
+  - Atlantis
+  - Andromeda
+  - Shusia
+  - Maia
+  - Espresso
 
 ---
 

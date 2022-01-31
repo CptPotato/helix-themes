@@ -47,6 +47,7 @@
 "ui.cursor.match" = { fg = "orange", bg = "bg_visual_yellow" }
 "ui.cursor.insert" = { fg = "bg0", bg = "grey2" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
+"ui.selection" = { bg = "bg3" }
 "ui.linenr" = "grey0"
 "ui.linenr.selected" = "fg0"
 "ui.statusline" = { fg = "fg0", bg = "bg2" }
@@ -58,7 +59,6 @@
 "ui.text.focus" = "fg0"
 "ui.menu" = { fg = "fg0", bg = "bg3" }
 "ui.menu.selected" = { fg = "bg0", bg = "blue" }
-"ui.selection" = { bg = "bg3" }
 
 "hint" = "blue"
 "info" = "aqua"

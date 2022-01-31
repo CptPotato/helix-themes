@@ -1,31 +1,31 @@
 ## Original Author
-# URL: https://github.com/sainnhe/everforest
+# URL: https://github.com/sainnhe/sonokai
 # Author: sainnhe
 # License: MIT License
 
-"type" = "yellow"
+"type" = "blue"
 "constant" = "purple"
 "constant.numeric" = "purple"
 "constant.character.escape" = "orange"
-"string" = "green"
-"comment" = "grey0"
+"string" = "yellow"
+"comment" = "grey"
 "variable" = "fg"
-"variable.builtin" = "blue"
+"variable.builtin" = "orange"
 "variable.parameter" = "fg"
 "variable.other.member" = "fg"
-"label" = "aqua"
-"punctuation" = "grey2"
-"punctuation.delimiter" = "grey2"
+"label" = "orange"
+"punctuation" = "grey"
+"punctuation.delimiter" = "grey"
 "punctuation.bracket" = "fg"
 "keyword" = "red"
 "operator" = "orange"
 "function" = "green"
 "function.builtin" = "blue"
-"function.macro" = "aqua"
+"function.macro" = "purple"
 "tag" = "yellow"
-"namespace" = "aqua"
-"attribute" = "aqua"
-"constructor" = "yellow"
+"namespace" = "blue"
+"attribute" = "purple"
+"constructor" = "blue"
 "module" = "blue"
 "special" = "orange"
 
@@ -44,24 +44,24 @@
 
 "ui.background" = { bg = "bg0" }
 "ui.cursor" = { fg = "bg0", bg = "fg" }
-"ui.cursor.match" = { fg = "orange", bg = "bg_yellow" }
-"ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
+"ui.cursor.match" = { fg = "orange", bg = "diff_yellow" }
+"ui.cursor.insert" = { fg = "black", bg = "grey" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
-"ui.selection" = { bg = "bg3" }
-"ui.linenr" = "grey0"
+"ui.selection" = { bg = "bg4" }
+"ui.linenr" = "grey"
 "ui.linenr.selected" = "fg"
-"ui.statusline" = { fg = "grey2", bg = "bg2" }
-"ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
-"ui.popup" = { fg = "grey2", bg = "bg1" }
-"ui.window" = { fg = "grey0", bg = "bg0" }
+"ui.statusline" = { fg = "fg", bg = "bg3" }
+"ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
+"ui.popup" = { fg = "grey", bg = "bg2" }
+"ui.window" = { fg = "grey", bg = "bg0" }
 "ui.help" = { fg = "fg", bg = "bg1" }
 "ui.text" = "fg"
-"ui.text.focus" = "fg"
+"ui.text.focus" = "green"
 "ui.menu" = { fg = "fg", bg = "bg2" }
 "ui.menu.selected" = { fg = "bg0", bg = "green" }
 
 "hint" = "blue"
-"info" = "aqua"
+"info" = "green"
 "warning" = "yellow"
 "error" = "red"
 "diagnostic" = { modifiers = ["underlined"] }
