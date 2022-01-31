@@ -13,6 +13,7 @@ mkdir -p build
 
 for f in themes/*; do
     theme="${f##*/}"
-    echo -e "\n$theme:"
+    echo
+    echo "$theme:"
     process_theme "$theme"
 done
