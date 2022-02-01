@@ -1,4 +1,6 @@
-<img src="header.png" alt="header" width="50%"/>
+<p align="center">
+  <img src="header.png" alt="header" height="285"/>
+</p>
 
 ## Helix Themes
 
