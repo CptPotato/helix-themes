@@ -1,10 +1,12 @@
-![header](header.png)
+<img src="header.png" alt="header" width="50%"/>
 
 ## Helix Themes
 
 A few themes ported to the [helix editor](https://github.com/helix-editor/helix).
 
-Included themes and variants:
+*For preview images go here: [PREVIEWS.md](PREVIEWS.md)*
+
+### Included themes and variants
 
 - [Everforest](https://github.com/sainnhe/everforest)
   - Dark
