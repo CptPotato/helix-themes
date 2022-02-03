@@ -29,13 +29,25 @@
 "module" = "blue"
 "special" = "orange"
 
-"markup.heading" = "red"
+"markup.heading.marker" = "grey2"
+"markup.heading.1" = { fg = "red", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "orange", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "yellow", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "green", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.1.hover" = { fg = "red", modifiers = ["bold"] }
+"markup.heading.2.hover" = { fg = "orange", modifiers = ["bold"] }
+"markup.heading.3.hover" = { fg = "yellow", modifiers = ["bold"] }
+"markup.heading.4.hover" = { fg = "green", modifiers = ["bold"] }
+"markup.heading.5.hover" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.6.hover" = { fg = "fg", modifiers = ["bold"] }
 "markup.list" = "red"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
 "markup.link.text" = "purple"
-"markup.quote" = "cyan"
+"markup.quote" = "grey2"
 "markup.raw" = "green"
 
 "diff.plus" = "green"
