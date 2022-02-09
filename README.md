@@ -42,8 +42,6 @@ A few themes ported to the [helix editor](https://github.com/helix-editor/helix)
   - Maia
   - Espresso
 
----
-
 ### Building
 
 Themes are split into a color scheme or "mapping" ("constants are purple") and one or more palettes ("purple is `#b39df3`").
@@ -57,9 +55,7 @@ Or just generate a single one:
 cat "themes/gruvbox" "palettes/gruvbox/material_dark_medium" > "theme.toml"
 ```
 
----
-
-#### Palette compatibility
+### Palette compatibility
 
 The palettes of `sonokai` and `edge` are made compatible.
 
