@@ -1,5 +1,20 @@
 ## Dark
 
+### Edge
+
+<img src="previews/edge/edge_default.png" alt="img" width="220" height="190"/>
+
+<details>
+<summary>show all variants</summary>
+
+| **Default** | **Aura** | **Neon** |
+|:-:|:-:|:-:|
+| ![img](previews/edge/edge_default.png) | ![img](previews/edge/edge_aura.png) | ![img](previews/edge/edge_neon.png) |
+
+</details>
+
+---
+
 ### Everforest Dark
 
 <img src="previews/everforest/everforest_dark_medium.png" alt="img" width="220" height="190"/>
@@ -55,6 +70,11 @@
 
 ## Light
 
+### Edge Light
+
+<img src="previews/edge/edge_light.png" alt="img" width="220" height="190"/>
+
+---
 
 ### Everforest Light
 

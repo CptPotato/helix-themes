@@ -1,0 +1,82 @@
+## Original Author
+# URL: https://github.com/sainnhe/edge
+# Author: sainnhe
+# License: MIT License
+
+"type" = "yellow"
+"constant" = "purple" # TODO
+"constant.numeric" = "green"
+"constant.character.escape" = "cyan"
+"string" = "green"
+"comment" = "grey"
+"variable" = "fg"
+"variable.builtin" = "orange"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
+"label" = "orange"
+"punctuation" = "grey"
+"punctuation.delimiter" = "grey"
+"punctuation.bracket" = "fg"
+"keyword" = "purple"
+"operator" = "red"
+"function" = "blue"
+"function.builtin" = "blue"
+"function.macro" = "cyan"
+"tag" = "yellow"
+"namespace" = "red"
+"attribute" = "cyan"
+"constructor" = "yellow"
+"module" = "red"
+"special" = "orange"
+
+"markup.heading.marker" = "grey"
+"markup.heading.1" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "red", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "yellow", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "green", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.1.hover" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.2.hover" = { fg = "red", modifiers = ["bold"] }
+"markup.heading.3.hover" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.4.hover" = { fg = "yellow", modifiers = ["bold"] }
+"markup.heading.5.hover" = { fg = "green", modifiers = ["bold"] }
+"markup.heading.6.hover" = { fg = "fg", modifiers = ["bold"] }
+"markup.list" = "red"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "green", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+"markup.quote" = "grey"
+"markup.raw" = "green"
+
+"diff.plus" = "green"
+"diff.delta" = "orange"
+"diff.minus" = "red"
+
+"ui.background" = { bg = "bg0" }
+"ui.cursor" = { fg = "bg0", bg = "fg" }
+"ui.cursor.match" = { fg = "orange", bg = "diff_yellow" }
+"ui.cursor.insert" = { fg = "black", bg = "grey" }
+"ui.cursor.select" = { fg = "bg0", bg = "blue" }
+"ui.selection" = { bg = "bg4" }
+"ui.linenr" = "grey"
+"ui.linenr.selected" = "fg"
+"ui.statusline" = { fg = "fg", bg = "bg3" }
+"ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
+"ui.popup" = { fg = "grey", bg = "bg2" }
+"ui.window" = { fg = "grey", bg = "bg0" }
+"ui.help" = { fg = "fg", bg = "bg1" }
+"ui.text" = "fg"
+"ui.text.focus" = "green"
+"ui.menu" = { fg = "fg", bg = "bg2" }
+"ui.menu.selected" = { fg = "bg0", bg = "blue" }
+
+"hint" = "blue"
+"info" = "green"
+"warning" = "yellow"
+"error" = "red"
+"diagnostic" = { modifiers = ["underlined"] }
+
+[palette]
+
