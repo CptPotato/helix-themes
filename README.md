@@ -52,7 +52,7 @@ You can generate all themes by running `build.sh`.
 Or just generate a single one:
 
 ```bash
-cat "themes/gruvbox" "palettes/gruvbox/material_dark_medium" > "theme.toml"
+cat "schemes/gruvbox" "palettes/gruvbox/material_dark_medium" > "theme.toml"
 ```
 
 ### Palette compatibility
