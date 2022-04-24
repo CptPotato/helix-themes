@@ -16,6 +16,7 @@ red = "#f86882"
 orange = "#f08d71"
 yellow = "#f0c66f"
 green = "#a6cd77"
+cyan = "#95cea6" # added for compatibility with `edge` scheme
 blue = "#81d0c9"
 purple = "#9fa0e1"
 grey = "#90817b"

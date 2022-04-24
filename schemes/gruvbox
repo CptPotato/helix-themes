@@ -65,6 +65,7 @@
 "ui.text.focus" = "fg0"
 "ui.menu" = { fg = "fg0", bg = "bg3" }
 "ui.menu.selected" = { fg = "bg0", bg = "blue" }
+"ui.virtual" = { fg = "bg1" }
 
 "hint" = "blue"
 "info" = "aqua"
