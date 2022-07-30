@@ -8,6 +8,7 @@
 "constant.numeric" = "purple"
 "constant.character.escape" = "orange"
 "string" = "green"
+"string.regexp" = "blue"
 "comment" = "grey0"
 "variable" = "fg0"
 "variable.builtin" = "blue"
@@ -18,6 +19,7 @@
 "punctuation.delimiter" = "grey2"
 "punctuation.bracket" = "fg0"
 "keyword" = "red"
+"keyword.directive" = "aqua"
 "operator" = "orange"
 "function" = "green"
 "function.builtin" = "blue"
@@ -56,8 +58,11 @@
 "ui.selection" = { bg = "bg3" }
 "ui.linenr" = "grey0"
 "ui.linenr.selected" = "fg0"
-"ui.statusline" = { fg = "fg0", bg = "bg2" }
+"ui.statusline" = { fg = "fg0", bg = "bg3" }
 "ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
+"ui.statusline.normal" = "fg"
+"ui.statusline.insert" = "orange"
+"ui.statusline.select" = "blue"
 "ui.popup" = { fg = "grey2", bg = "bg2" }
 "ui.window" = { fg = "grey0", bg = "bg0" }
 "ui.help" = { fg = "fg0", bg = "bg1" }
@@ -65,8 +70,8 @@
 "ui.text.focus" = "fg0"
 "ui.menu" = { fg = "fg0", bg = "bg3" }
 "ui.menu.selected" = { fg = "bg0", bg = "blue" }
-"ui.virtual.whitespace" = { fg = "bg1" }
-"ui.virtual.ruler" = { bg = "bg1" }
+"ui.virtual.whitespace" = { fg = "bg4" }
+"ui.virtual.ruler" = { bg = "bg3" }
 
 "hint" = "blue"
 "info" = "aqua"
