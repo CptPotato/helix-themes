@@ -47,7 +47,7 @@ A few themes ported to the [helix editor](https://github.com/helix-editor/helix)
 Themes are split into a color scheme or "mapping" ("constants are purple") and one or more palettes ("purple is `#b39df3`").
 Each theme is built by simply merging the [scheme](schemes) with one of the corresponding [palettes](palettes).
 
-You can generate all themes by running `build.sh`.
+You can generate all themes by running `build.sh` from the root of the repository.
 
 Or just generate a single one:
 
@@ -55,12 +55,4 @@ Or just generate a single one:
 cat "schemes/gruvbox" "palettes/gruvbox/material_dark_medium" > "theme.toml"
 ```
 
-### Palette compatibility
-
-The palettes of `sonokai` and `edge` are made compatible.
-
-This means that the color mapping scheme of `sonokai` can be used with one of the `edge` palettes (and vice versa):
-
-```bash
-cat "schemes/sonokai" "palettes/edge/edge_aura" > "sonokai_aura.toml"
-```
+On Windows you can run the shell script (or `cat` command above) from the git bash that comes with git or use the executable directly (`<git path>/usr/bin/sh.exe build.sh`).
