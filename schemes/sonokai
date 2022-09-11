@@ -56,14 +56,16 @@
 "ui.cursor.match" = { fg = "orange", bg = "diff_yellow" }
 "ui.cursor.insert" = { fg = "black", bg = "grey" }
 "ui.cursor.select" = { fg = "bg0", bg = "blue" }
+"ui.cursorline.primary" = { bg = "bg1" }
+"ui.cursorline.secondary" = { bg = "bg1" }
 "ui.selection" = { bg = "bg4" }
 "ui.linenr" = "grey"
 "ui.linenr.selected" = "fg"
 "ui.statusline" = { fg = "fg", bg = "bg3" }
 "ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
-"ui.statusline.normal" = "fg"
-"ui.statusline.insert" = "yellow"
-"ui.statusline.select" = "blue"
+"ui.statusline.normal" = { fg = "bg0", bg = "fg", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg0", bg = "yellow", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg0", bg = "blue", modifiers = ["bold"] }
 "ui.popup" = { fg = "grey", bg = "bg2" }
 "ui.window" = { fg = "grey", bg = "bg0" }
 "ui.help" = { fg = "fg", bg = "bg1" }
