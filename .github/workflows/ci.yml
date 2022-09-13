@@ -19,3 +19,4 @@ jobs:
         with:
           files: build.tar.gz
           tag_name: latest
+          prerelease: true
