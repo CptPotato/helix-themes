@@ -11,7 +11,8 @@ jobs:
       - name: build themes
         run: sh ./build.sh
       - name: pack themes
-        uses: actions/upload-artifact@v3
+        run: tar -czf build.tar.gz build
+      - name: create release
+        uses: softprops/action-gh-release@v1
         with:
-          name: helix-themes
-          path: build
+          files: build.tar.gz
