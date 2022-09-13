@@ -42,7 +42,11 @@ A few themes ported to the [helix editor](https://github.com/helix-editor/helix)
   - Maia
   - Espresso
 
-### Building
+### Download
+
+The latest build of the `main` branch can be downloaded from the GitHub releases page [here](https://github.com/CptPotato/helix-themes/releases/tag/latest).
+
+### Building manually
 
 Themes are split into a color scheme or "mapping" ("constants are purple") and one or more palettes ("purple is `#b39df3`").
 Each theme is built by simply merging the [scheme](schemes) with one of the corresponding [palettes](palettes).
