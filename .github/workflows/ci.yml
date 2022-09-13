@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: build themes
+        run: sh ./build.sh
+      - name: pack themes
+        uses: actions/upload-artifact@v3
+        with:
+          name: helix-themes
+          path: build
