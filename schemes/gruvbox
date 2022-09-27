@@ -66,12 +66,14 @@
 "ui.statusline.normal" = { fg = "bg0", bg = "fg0", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "bg0", bg = "yellow", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "bg0", bg = "blue", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "grey0", bg = "bg1" }
+"ui.bufferline.active" = { fg = "fg0", bg = "bg3", modifiers = ["bold"] }
 "ui.popup" = { fg = "grey2", bg = "bg2" }
 "ui.window" = { fg = "grey0", bg = "bg0" }
-"ui.help" = { fg = "fg0", bg = "bg1" }
+"ui.help" = { fg = "fg0", bg = "bg2" }
 "ui.text" = "fg0"
 "ui.text.focus" = "fg0"
-"ui.menu" = { fg = "fg0", bg = "bg2" }
+"ui.menu" = { fg = "fg0", bg = "bg3" }
 "ui.menu.selected" = { fg = "bg0", bg = "blue", modifiers = ["bold"]  }
 "ui.virtual.whitespace" = { fg = "bg4" }
 "ui.virtual.indent-guide" = { fg = "bg4" }
