@@ -63,7 +63,7 @@
 "ui.linenr.selected" = "fg"
 "ui.statusline" = { fg = "grey2", bg = "bg3" }
 "ui.statusline.inactive" = { fg = "grey0", bg = "bg1" }
-"ui.statusline.normal" = { fg = "bg0", bg = "fg0", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "bg0", bg = "grey2", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "bg0", bg = "yellow", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "bg0", bg = "blue", modifiers = ["bold"] }
 "ui.bufferline" = { fg = "grey0", bg = "bg1" }
