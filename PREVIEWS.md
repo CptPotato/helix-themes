@@ -51,6 +51,12 @@
 
 ---
 
+### Kanabox
+
+<img src="previews/kanabox/kanabox_default.png" alt="img" width="220" height="190"/>
+
+---
+
 ### Sonokai
 
 <img src="previews/sonokai/sonokai_default.png" alt="img" width="220" height="190"/>

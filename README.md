@@ -2,49 +2,38 @@
   <img src="header.png" alt="header" height="285"/>
 </p>
 
-## Helix Themes
+# Helix Themes
 
-A few themes ported to the [helix editor](https://github.com/helix-editor/helix).
+A few themes for the [helix editor](https://github.com/helix-editor/helix). Most of them are direct ports of existing themes.
 
-*For preview images go here: [PREVIEWS.md](PREVIEWS.md)*
+The included themes generally follow these rules:
 
-### Included themes and variants
+- Medium contrast and saturation
+- Balanced use of different colors (easily discernable syntax)
+- Not too many colors
 
-- [Edge](https://github.com/sainnhe/edge)
-  - Default
-  - Aura
-  - Neon
-  - Light
-- [Everforest](https://github.com/sainnhe/everforest)
-  - Dark
-    - Hard
-    - Medium
-    - Soft
-    - HC (customized high contrast version)
-  - Light
-    - Hard
-    - Medium
-    - Soft
-- [Gruvbox (Material)](https://github.com/sainnhe/gruvbox-material) (all variants: `material` / `mix` / `original`)
-  - Dark
-    - Hard
-    - Medium
-    - Soft
-  - Light
-    - Hard
-    - Medium
-    - Soft
-- [Sonokai](https://github.com/sainnhe/sonokai)
-  - Default
-  - Atlantis
-  - Andromeda
-  - Shusia
-  - Maia
-  - Espresso
+***For preview images see: [PREVIEWS.md](PREVIEWS.md)***
+
+## Included themes
+
+- [Edge](PREVIEWS.md#edge)
+  - Port of [`sainnhe/edge`](https://github.com/sainnhe/edge) <sub>([MIT](https://github.com/sainnhe/edge/blob/master/LICENSE))</sub>
+- [Everforest](PREVIEWS.md#everforest-dark)
+  - Port of [`sainnhe/everforest`](https://github.com/sainnhe/everforest) <sub>([MIT](https://github.com/sainnhe/everforest/blob/master/LICENSE))</sub>
+  - Added customized high contrast version
+- [Gruvbox Material](PREVIEWS.md#gruvbox-dark)
+  - Port of [`sainnhe/gruvbox-material`](https://github.com/sainnhe/gruvbox-material) <sub>([MIT](https://github.com/sainnhe/gruvbox-material/blob/master/LICENSE))</sub>
+  - Includes `material`, `mix` and `original` variants
+- [Kanabox](PREVIEWS.md#kanabox)
+  - Experimental mashup of [Kanagawa](https://github.com/rebelot/kanagawa.nvim) <sub>([MIT](https://github.com/rebelot/kanagawa.nvim/blob/master/LICENSE))</sub> and [Gruvbox Material](https://github.com/sainnhe/gruvbox-material) <sub>([MIT](https://github.com/sainnhe/gruvbox-material/blob/master/LICENSE))</sub>
+- [Sonokai](PREVIEWS.md#sonokai)
+  - Port of [`sainnhe/sonokai`](https://github.com/sainnhe/sonokai) <sub>([MIT](https://github.com/sainnhe/sonokai/blob/master/LICENSE))</sub>
 
 ### Download
 
 The latest build of the `main` branch can be downloaded from the GitHub releases page [here](https://github.com/CptPotato/helix-themes/releases/tag/latest).
+
+> \* The release date and commit on the releases page point to an old version. However, `build.tar.gz` is always up to date.
 
 ### Building manually
 

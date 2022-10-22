@@ -1,8 +1,3 @@
-## Original Author
-# URL: https://github.com/sainnhe/edge
-# Author: sainnhe
-# License: MIT License
-
 "type" = "yellow"
 "constant" = "purple" # TODO
 "constant.numeric" = "green"
