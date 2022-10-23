@@ -18,7 +18,7 @@
 "keyword.control.return" = "peachRed"
 "keyword.directive" = "waveRed"
 "keyword.function" = "waveRed"
-"operator" = "surimiOrange"
+"operator" = "autumnYellow"
 "function" = "springGreen"
 "function.builtin" = "springBlue"
 "function.macro" = "springBlue"
@@ -40,6 +40,7 @@
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "waveBlue2", modifiers = ["italic"] }
+"markup.link.label" = "waveAqua"
 "markup.link.text" = "waveAqua"
 "markup.quote" = "fujiGray"
 "markup.raw" = "carpYellow"
@@ -68,7 +69,7 @@
 "ui.bufferline.active" = { fg = "lightBlue", bg = "sumiInk1", modifiers = ["bold"] }
 "ui.popup" = { fg = "sumiInk2", bg = "sumiInk2" }
 "ui.window" = { fg = "sumiInk4", bg = "sumiInk1" }
-"ui.help" = { fg = "oldYellow", bg = "sumiInk2" }
+"ui.help" = { fg = "fujiWhite", bg = "sumiInk2" }
 "ui.text" = "fujiWhite"
 "ui.text.focus" = "lightBlue"
 "ui.menu" = { fg = "springViolet2", bg = "sumiInk2" }
