@@ -2,7 +2,7 @@
   <img src="header.png" alt="header" height="285"/>
 </p>
 
-# Helix Themes
+## Helix Themes
 
 A few themes for the [helix editor](https://github.com/helix-editor/helix). Most of them are direct ports of existing themes.
 
@@ -14,7 +14,7 @@ The included themes generally follow these rules:
 
 ***For preview images see: [PREVIEWS.md](PREVIEWS.md)***
 
-## Included themes
+### Included themes
 
 - [Edge](PREVIEWS.md#edge)
   - Port of [`sainnhe/edge`](https://github.com/sainnhe/edge) <sub>([MIT](https://github.com/sainnhe/edge/blob/master/LICENSE))</sub>
@@ -33,7 +33,14 @@ The included themes generally follow these rules:
 
 The latest build of the `main` branch can be downloaded from the GitHub releases page [here](https://github.com/CptPotato/helix-themes/releases/tag/latest).
 
-> \* The release date and commit on the releases page point to an old version. However, `build.tar.gz` is always up to date.
+> The release date and commit on the releases page point to an old version. However, `build.tar.gz` is always up to date.
+
+### Installation
+
+User themes can be added to the `themes` subdirectory of the config location (for example `~/.config/helix/themes` on Linux, or `C:/Users/<user>/AppData/Roaming/helix/themes` on Windows).
+To "install" a theme simply copy it into that directory (you may have to create it if it doesn't exist yet). Alternatively you can symlink the whole `themes` directory.
+
+If you are unsure where the config path is located on your machine, run `hx --health` and look for `Config file: ...` at the top. You can read more about themes in the Helix docs [here](https://docs.helix-editor.com/themes.html).
 
 ### Building manually
 
