@@ -82,7 +82,7 @@
 "info" = "crystalBlue"
 "warning" = "carpYellow"
 "error" = "peachRed"
-"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic" = { underline = { style = "line" } }
 
 [palette]
 

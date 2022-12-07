@@ -78,7 +78,7 @@
 "info" = "green"
 "warning" = "yellow"
 "error" = "red"
-"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic" = { underlined = { style = "line" } }
 
 [palette]
 

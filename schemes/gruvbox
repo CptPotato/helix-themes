@@ -78,7 +78,7 @@
 "info" = "aqua"
 "warning" = "yellow"
 "error" = "red"
-"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic" = { underline = { style = "curl" } }
 
 [palette]
 
