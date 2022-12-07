@@ -82,7 +82,11 @@
 "info" = "crystalBlue"
 "warning" = "carpYellow"
 "error" = "peachRed"
-"diagnostic" = { modifiers = ["underlined"] }
+"diagnostic" = { underline = { style = "line" } }
+"diagnositc.hint" = { underline = { color = "springBlue", style = "dotted" } }
+"diagnositc.info" = { underline = { color = "crystalBlue", style = "dotted" } }
+"diagnositc.warning" = { underline = { color = "carpYellow", style = "curl" } }
+"diagnositc.error" = { underline = { color = "peachRed", style = "curl" } }
 
 [palette]
 
