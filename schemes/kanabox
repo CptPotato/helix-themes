@@ -12,7 +12,7 @@
 "punctuation" = "fujiGray"
 "punctuation.delimiter" = "fujiGray"
 "punctuation.bracket" = "fujiWhite"
-"keyword" = "oniViolet"
+"keyword" = { fg = "oniViolet", modifiers = ["italic"] }
 "keyword.control" = "waveRed"
 "keyword.control.exception" = "peachRed"
 "keyword.control.return" = "peachRed"
@@ -40,8 +40,8 @@
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.link.url" = { fg = "waveBlue2", modifiers = ["italic"] }
-"markup.link.label" = "waveAqua"
-"markup.link.text" = "waveAqua"
+"markup.link.label" = "waveAqua1"
+"markup.link.text" = "waveAqua1"
 "markup.quote" = "fujiGray"
 "markup.raw" = "carpYellow"
 
@@ -59,7 +59,7 @@
 "ui.selection" = { bg = "sumiInk3" }
 "ui.selection.primary" = { bg = "waveBlue1_5" }
 "ui.linenr" = "sumiInk4"
-"ui.linenr.selected" = { fg = "springViolet2" }
+"ui.linenr.selected" = { fg = "springViolet2", modifiers = ["bold"] }
 "ui.statusline" = { fg = "springViolet2", bg = "sumiInk0" }
 "ui.statusline.inactive" = { fg = "sumiInk4", bg = "sumiInk0" }
 "ui.statusline.normal" = { fg = "sumiInk0", bg = "springViolet2", modifiers = ["bold"] }
@@ -83,10 +83,10 @@
 "warning" = "carpYellow"
 "error" = "peachRed"
 "diagnostic" = { underline = { style = "line" } }
-"diagnositc.hint" = { underline = { color = "springBlue", style = "dotted" } }
-"diagnositc.info" = { underline = { color = "crystalBlue", style = "dotted" } }
-"diagnositc.warning" = { underline = { color = "carpYellow", style = "curl" } }
-"diagnositc.error" = { underline = { color = "peachRed", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "springBlue", style = "dotted" } }
+"diagnostic.info" = { underline = { color = "crystalBlue", style = "dotted" } }
+"diagnostic.warning" = { underline = { color = "carpYellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "peachRed", style = "curl" } }
 
 [palette]
 
