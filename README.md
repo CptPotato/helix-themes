@@ -42,6 +42,12 @@ To "install" a theme simply copy it into that directory (you may have to create 
 
 If you are unsure where the config path is located on your machine, run `hx --health` and look for `Config file: ...` at the top. You can read more about themes in the Helix docs [here](https://docs.helix-editor.com/themes.html).
 
+### Home Manager Module
+
+Nix users can either use the flake overlay to add the package to their package set, then use home-manager to
+symlink the directory to their helix theme directory as described in [installation](#installation), or use the
+home-manager module from the flake which automatically sets [`programs.helix.themes`](https://nix-community.github.io/home-manager/options.xhtml#opt-programs.helix.themes) if helix is enabled.
+
 ### Building manually
 
 Themes are split into a color scheme or "mapping" ("constants are purple") and one or more palettes ("purple is `#b39df3`").
