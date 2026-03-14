@@ -73,6 +73,7 @@
 "ui.virtual.whitespace" = { fg = "bg4" }
 "ui.virtual.indent-guide" = { fg = "bg4" }
 "ui.virtual.ruler" = { bg = "bg2" }
+"ui.virtual.inlay-hint" = "grey"
 
 "hint" = "blue"
 "info" = "green"

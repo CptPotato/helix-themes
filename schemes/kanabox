@@ -77,6 +77,7 @@
 "ui.virtual.whitespace" = { fg = "sumiInk3" }
 "ui.virtual.indent-guide" = { fg = "sumiInk3" }
 "ui.virtual.ruler" = { bg = "sumiInk3" }
+"ui.virtual.inlay-hint" = "katanaGray"
 
 "hint" = "springBlue"
 "info" = "crystalBlue"
